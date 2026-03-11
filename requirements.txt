@@ -1,0 +1,30 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# LangChain + LLM
+langchain==0.3.25
+langchain-openai==0.3.16
+langchain-core==0.3.58
+openai
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.13.3
+
+# Config
+pydantic-settings==2.5.2
+python-dotenv
+
+# HTTP
+requests==2.32.3
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+pytest-mock==3.14.0
+
+# Plug in later (uncomment when ready)
+# chromadb          # RAG vector store
+# sentence-transformers  # RAG embeddings
